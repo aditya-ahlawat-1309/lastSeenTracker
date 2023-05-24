@@ -5,7 +5,7 @@ const App = () => {
   const [isOnline, setIsOnline] = useState(null);
   const [lastSeen, setLastSeen] = useState(null);
 
-  const [phoneNo, setPhoneNo] = useState(9988599739);
+  const [phoneNo, setPhoneNo] = useState(+918901459471);
 
 //   const handleChange = (event) => {
 //     setPhoneNo(event.target.value);
