@@ -7,9 +7,9 @@ const App = () => {
 
   const [phoneNo, setPhoneNo] = useState(9988599739);
 
-  const handleChange = (event) => {
-    setPhoneNo(event.target.value);
-  };
+//   const handleChange = (event) => {
+//     setPhoneNo(event.target.value);
+//   };
 
   useEffect(() => {
     axios
