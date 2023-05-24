@@ -13,7 +13,9 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get(`https://api.whatsapp.com/v1/status/${phoneNo}`)
+      .get(
+        `https://cors-anywhere.herokuapp.com/https://api.whatsapp.com/v1/status/${phoneNo}`
+      )
       .then((response) => {
         console.log(response);
         setIsOnline(response.data.status.online);
