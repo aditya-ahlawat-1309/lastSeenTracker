@@ -15,6 +15,7 @@ const App = () => {
     axios
       .get(`https://api.whatsapp.com/v1/status/${phoneNo}`)
       .then((response) => {
+        console.log(response);
         setIsOnline(response.data.status.online);
         setLastSeen(response.data.status.last_seen);
       });
